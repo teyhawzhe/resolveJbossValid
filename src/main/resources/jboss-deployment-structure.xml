@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-deployment-structure>
+    <deployment>
+        <exclude-subsystems>
+            <subsystem name="jsf" />
+        </exclude-subsystems>
+        <exclusions>
+            <module name="javax.validation.api" />
+            <module name="javax.faces.api" />
+            <module name="org.hibernate.validator" />
+        </exclusions>
+    </deployment>
+</jboss-deployment-structure>
